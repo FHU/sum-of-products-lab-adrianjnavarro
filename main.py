@@ -5,7 +5,7 @@ def sum_of_products(list1, list2):
         return "Error"
     
     return sum(a * b for a, b in zip(list1, list2))
-    return result
+    
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
