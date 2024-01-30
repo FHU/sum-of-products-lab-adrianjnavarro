@@ -3,6 +3,8 @@
 def sum_of_products(list1, list2):
     if len(list1) != len(list2):
         return "Error"
+    if not list1 or not list2:
+        return "Error"
     
     return sum(a * b for a, b in zip(list1, list2))
     
@@ -16,9 +18,6 @@ if __name__ == '__main__':
     list2 = [int(char) for char in input_string2 if char.isdigit()]
 
     
-    if not list1 or not list2:
-        print("Error")  
-    else:      
-        result = sum_of_products(list1, list2)
-        print(result)
+    result = sum_of_products(list1, list2)
+    print(result)
 
