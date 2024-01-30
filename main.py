@@ -2,7 +2,7 @@
 #change to test push and forks
 def sum_of_products(list1, list2):
     if len(list1) != len(list2):
-        return "Error, lengths are not the same"
+        return "Error"
     
     return sum(a * b for a, b in zip(list1,list2))
 
