@@ -4,7 +4,7 @@ def sum_of_products(list1, list2):
     if len(list1) != len(list2):
         return "Error"
     
-    if all(x ==0 for x in list1) or all(y == 0 for y in list2):
+    if all(x == 0 for x in list1) and all(y == 0 for y in list2):
         return "0"
 
     return sum(a * b for a, b in zip(list1, list2))
