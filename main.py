@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     
 if not list1 or not list2:
-    pritn("Error")  
+    print("Error")  
 else:      
     result = sum_of_products(list1, list2)
     print(result)
