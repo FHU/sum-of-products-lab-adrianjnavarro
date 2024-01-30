@@ -6,7 +6,7 @@ def sum_of_products(list1, list2):
     if not list1 or not list2:
         return "Error"
     
-    return sum(a * b for a, b in zip(list1, list2))
+    return 0 if not list1 or not list2 else sum(a * b for a, b in zip(list1, list2))
     
 
 if __name__ == '__main__':
