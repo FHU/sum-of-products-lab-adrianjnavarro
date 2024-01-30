@@ -15,6 +15,10 @@ if __name__ == '__main__':
     list1 = [int(char) for char in input_string1 if char.isdigit()]
     list2 = [int(char) for char in input_string2 if char.isdigit()]
 
+    
+if not list1 or not list2:
+    pritn("Error")  
+else:      
     result = sum_of_products(list1, list2)
     print(result)
 
