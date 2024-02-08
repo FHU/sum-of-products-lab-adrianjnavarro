@@ -23,3 +23,4 @@ if __name__ == '__main__':
     result = sum_of_products(list1, list2)
     print(result)
 
+#Resubmitting 
